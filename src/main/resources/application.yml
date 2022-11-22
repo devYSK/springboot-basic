@@ -1,0 +1,14 @@
+
+
+
+spring:
+  profiles:
+    include:
+      - db
+  main:
+    allow-bean-definition-overriding: true
+
+
+  thymeleaf:
+    cache: false
+
